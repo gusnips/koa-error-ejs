@@ -6,7 +6,7 @@
 - json
 - html
 
-  Based on [koa-error](https://github.com/koajs/error), adapter to use EJS as view  
+  Adapted from [koa-error](https://github.com/koajs/error) to use EJS as view engine  
 
 ## Installation
 
