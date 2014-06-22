@@ -1,27 +1,27 @@
 # koa-error-ejs
   
   Error response middleware for koa supporting:
-
-- text
-- json
-- html
-
+  
+- text  
+- html  
+- json  
+  
   Adapted from [koa-error](https://github.com/koajs/error) to use EJS as view engine  
-
+  
 ## Installation
-
+  
 ```js
 $ npm install koa-error-ejs --save
 ```
-
+  
   and then copy the default error view to your views folder
-
+  
 ```js
 $ cp node_modules/koa-error-ejs/error.html views/
 ```
-
+  
   setup in your application
-
+  
 ```js
 var app= require('koa')();
 var error= require('koa-error-ejs');
