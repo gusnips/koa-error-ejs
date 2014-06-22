@@ -11,7 +11,7 @@
 ## Installation
 
 ```js
-$ npm install koa-error
+$ npm install koa-error-ejs --save
 ```
 
   and then copy the default error view to your views folder
