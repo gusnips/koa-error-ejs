@@ -38,7 +38,7 @@ function error(opts) {
     var env= this.app.env;
     try {
       yield next;
-      if (this.response.status=404 && !this.response.body) 
+      if (this.response.status==404 && !this.response.body) 
         this.throw(404);
     } catch (err) {
       this.status = err.status || 500;
