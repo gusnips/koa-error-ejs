@@ -2,7 +2,7 @@
   "name": "koa-error-ejs",
   "description": "Error reponses (text, json, html) for koa and EJS",
   "repository": "gusnips/koa-error-ejs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "keywords": [
     "koa",
     "middleware",
